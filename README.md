@@ -23,3 +23,4 @@
   * 3 Way Handshake, 4 Way Handshake
   * HTTP & HTTPS
   * HTTP 통신 & Socket 통신
+  * Throttling(Rate Limit)
