@@ -1,0 +1,18 @@
+from itertools import combinations
+import sys
+
+count, target = list(map(int,input().split()))
+card_numbers = list(map(int,input().split()))
+
+sum_list = []
+for card_set in combinations(card_numbers,3) :
+  sum_list.append(sum(card_set))
+
+sum_list.sort()
+list_length = len(sum_list)
+ans = 0
+for i,s in enumerate(sum_list) :
+  if s <= target :
+     ans = s
+
+print(ans)

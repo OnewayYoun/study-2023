@@ -1,0 +1,52 @@
+from collections import deque
+
+v_c, e_c , start_v = list(map(int,input().split()))
+
+v_check = [True] + [False]*v_c
+
+graph = {}
+
+for i in range(1,v_c + 1) :
+  graph[i] = []
+
+for _ in range(0,e_c) :
+  v_1, v_2 = list(map(int,input().split()))
+  graph[v_1].append(v_2)
+  graph[v_2].append(v_1)
+
+for vertex in graph :
+  graph[vertex].sort()
+
+def dfs(v_check, graph, start_node) :
+  v_check_cpy = [i for i in v_check]
+  stack = []
+  stack.append(start_node)
+  result = []
+  while stack :
+    pop_v = stack.pop()
+    if not v_check_cpy[pop_v] :
+        v_check_cpy[pop_v] = True
+        result.append(pop_v)
+    for i in  sorted(graph[pop_v],reverse=True) :
+      if not v_check_cpy[i] :
+        stack.append(i)
+  return result
+      
+
+def bfs(v_check, graph, start_node) :
+  v_check_cpy = [i for i in v_check]
+  queue = deque([])
+  queue.append(start_node)
+  result = []
+  while queue :
+    pop_v = queue.popleft()
+    if not v_check_cpy[pop_v] :
+        v_check_cpy[pop_v] = True
+        result.append(pop_v)
+    for i in graph[pop_v] :
+      if not v_check_cpy[i] :
+        queue.append(i)
+  return result
+
+print(" ".join(map(str,dfs(v_check,graph,start_v))))
+print(" ".join(map(str,bfs(v_check,graph,start_v))))

@@ -1,0 +1,19 @@
+count , pick = list(map(int,input().split()))
+check_list = [True] + [False]*count
+store = []
+
+def dfs(check_list ,store  , cnt , pick) :
+  if cnt == pick :
+    answer =  " ".join(map(str,store))
+    print(answer)
+    return
+  
+  for i,is_visit in enumerate(check_list) :
+    check_list_cpy = [i for i in check_list]
+    store_cpy = [i for i in store]
+    if not is_visit :
+      check_list_cpy[i] = True
+      store_cpy.append(i)
+      dfs(check_list_cpy, store_cpy, cnt+1, pick)
+    
+dfs(check_list,store,0 , pick)
