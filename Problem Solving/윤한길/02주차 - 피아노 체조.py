@@ -20,5 +20,4 @@ if __name__ == '__main__':
         마지막으로 연주하는 y번 악보에선 절대 실수하지 않는다.
         그러므로 해당 y인덱스 이전까지(question[1] - 1)의 누적합에서 빼준다.
         '''
-
         print(prefix_sum[question[1] - 1] - prefix_sum[question[0] - 1])
