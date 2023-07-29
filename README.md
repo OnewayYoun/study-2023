@@ -1,14 +1,25 @@
 # 스터디 그룹 2023
-
+~~~
 - 시간 : 21:00 ~ 
 - 날짜 : 수요일, 일요일
 - 장소 : Discord (비대면)
+~~~
+<hr/>
+
+## 2주차(7.31 ~ 8.6)
+
+#### Problem Solving
+* [BOJ 14502. 연구소](https://www.acmicpc.net/problem/14502) - 구현
+* [BOJ 21318. 피아노 체조](https://www.acmicpc.net/problem/21318) - 누접합
+* [BOJ 12847. 꿀 아르바이트](https://www.acmicpc.net/problem/12847) - 슬라이딩윈도우/투포인터
+
+#### CS
+* ????
+  * ???
 
 <hr/>
 
-## 1월 1주차(7.24 ~ 7.30)
-
-### 월요일
+## 1주차(7.24 ~ 7.30)
 
 #### Problem Solving
 * [BOJ 15649. N과 M (1)](https://www.acmicpc.net/problem/15649) - 백트래킹
