@@ -10,7 +10,8 @@
 
 #### Problem Solving
 * [BOJ 14502. 연구소](https://www.acmicpc.net/problem/14502) - 구현
-* [BOJ 21318. 피아노 체조](https://www.acmicpc.net/problem/21318) - 누접합
+* [BOJ 21318. 피아노 체조](https://www.acmicpc.net/problem/21318) - 1차원 누접합
+* [BOJ 2167. 2차원 배열의 합](https://www.acmicpc.net/problem/2167) - 2차원 누접합
 * [BOJ 12847. 꿀 아르바이트](https://www.acmicpc.net/problem/12847) - 슬라이딩윈도우/투포인터
 
 #### CS
