@@ -106,7 +106,7 @@
   - 4xx (Client Error): 클라이언트 오류, 잘못된 문법등으로 서버가 요청을 수행할 수 없음
   - 5xx (Server Error): 서버 오류, 서버가 정상 요청을 처리하지 못함
 
-#Throttling
+# Throttling
 
  - Throttling은 리소스 사용량이나 요청 수 등을 일정 수준 이내로 제한하는 방법 
  - 특히 웹 서비스나 API에서 과도한 요청이 서버에 부담을 주는 것을 막기 위해 사용됩니다.
@@ -138,7 +138,7 @@
 	  
 [출처] https://etloveguitar.tistory.com/126 ~ 130
 
-#웹 통신의 흐름
+# 웹 통신의 흐름
 
  1. 사용자가 웹 브라우저 검색창에 www.naver.com 입력
  2. 웹브라우저는 해당 도메인 주소와 상응하는 IP 주소를 찾기 위해 캐싱된 DNS 기록 확인
@@ -151,14 +151,14 @@
  9. 웹 브라우저는 html 컨텐츠 표시
  
  ## 웹 서버
-  -정적인 컨텐츠(HTML, CSS, IMAGE) 요청받아 처리하여 제공하는 서버
-  -Apache Server, Nginx등
+  - 정적인 컨텐츠(HTML, CSS, IMAGE) 요청받아 처리하여 제공하는 서버
+  - Apache Server, Nginx등
   
  ## WAS
-  -동적인 컨텐츠(JSP,ASP,PHP등)을 요청받아 처리하여 제공하는 서버
-  -Tomcat,JBoss,Jeus,Web Spehere 등
+  - 동적인 컨텐츠(JSP,ASP,PHP등)을 요청받아 처리하여 제공하는 서버
+  - Tomcat,JBoss,Jeus,Web Spehere 등
   
-#HTTP 통신과 Socket통신
+# HTTP 통신과 Socket통신
 
  - Http 통신은 클라이언트에서 서버로 요청을 보내고 서버가 응답이 이루어지는 통신(단방향)
  - 소켓통신이란 서버와 클라이언트 양뱡향 연결이 이루어지는 통신
