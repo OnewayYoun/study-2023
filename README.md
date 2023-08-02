@@ -6,6 +6,14 @@
 ~~~
 <hr/>
 
+## 3주차(8.7 ~ 8.14)
+#### Problem Solving
+* [BOJ 1927. 최소 힙](https://www.acmicpc.net/problem/1927)
+* [BOJ 11279. 최대 힙](https://www.acmicpc.net/problem/11279)
+* [BOJ 1874. 스택 수열](https://www.acmicpc.net/problem/1874)
+* [BOJ 10845. 큐](https://www.acmicpc.net/problem/10845)
+  * 라이브러리를 사용하지 않고, 링크드 리스트를 직접 구현
+
 ## 2주차(7.31 ~ 8.6)
 
 #### Problem Solving
