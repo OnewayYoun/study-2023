@@ -1,0 +1,13 @@
+import sys
+input = sys.stdin.readline
+
+due_day, work_day = list(map(int, input().split()))
+work_force = list(map(int, input().split()))
+
+profit = []
+summage = sum(work_force[:work_day])
+profit.append(summage)
+for i in range(0, due_day - work_day) :
+  summage +=  work_force[i + work_day ] - work_force[i]
+  profit.append(summage)
+print(max(profit))
