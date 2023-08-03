@@ -10,7 +10,7 @@
 #### Problem Solving
 * [BOJ 1927. 최소 힙](https://www.acmicpc.net/problem/1927)
 * [BOJ 11279. 최대 힙](https://www.acmicpc.net/problem/11279)
-* [BOJ 1874. 스택 수열](https://www.acmicpc.net/problem/1874)
+* [BOJ 9012. 괄호](https://www.acmicpc.net/problem/9012)
 * [BOJ 10845. 큐](https://www.acmicpc.net/problem/10845)
   * 라이브러리를 사용하지 않고, 링크드 리스트를 직접 구현
 
