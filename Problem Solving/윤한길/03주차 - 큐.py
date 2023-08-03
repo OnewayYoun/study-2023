@@ -1,5 +1,7 @@
 import sys
 
+input = sys.stdin.readline
+
 
 class Queue:
     class Node:
@@ -9,19 +11,20 @@ class Queue:
 
     def __init__(self):
         self.head = None
+        self.tail = None
         self.length = 0
 
     def __len__(self):
         return self.length
 
     def push(self, data):
+        node = self.Node(data)
         if self.head is None:
-            self.head = self.Node(data)
+            self.head = node
+            self.tail = node
         else:
-            node = self.head
-            while node.next:
-                node = node.next
-            node.next = self.Node(data)
+            self.tail.next = node
+            self.tail = node
         self.length += 1
 
     def pop(self):
@@ -30,6 +33,7 @@ class Queue:
         node = self.head
         if self.head.next is None:
             self.head = None
+            self.tail = None
         else:
             self.head = self.head.next
         self.length -= 1
@@ -50,28 +54,25 @@ class Queue:
         if self.head is None:
             return -1
         else:
-            node = self.head
-            while node.next:
-                node = node.next
-            return node.data
+            return self.tail.data
 
 
 if __name__ == '__main__':
-    N = int(sys.stdin.readline())
+    N = int(input())
     q = Queue()
     answer = []
     for _ in range(N):
-        command = sys.stdin.readline()
-        if 'push' in command:
-            q.push(command.split()[1])
-        if 'pop' in command:
+        command = input().split()
+        if 'push' == command[0]:
+            q.push(command[1])
+        if 'pop' == command[0]:
             answer.append(q.pop())
-        if 'size' in command:
+        if 'size' == command[0]:
             answer.append(len(q))
-        if 'front' in command:
+        if 'front' == command[0]:
             answer.append(q.front())
-        if 'back' in command:
+        if 'back' == command[0]:
             answer.append(q.back())
-        if 'empty' in command:
+        if 'empty' == command[0]:
             answer.append(q.is_empty())
     print(*answer, sep='\n')
