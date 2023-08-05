@@ -23,8 +23,24 @@
 * [BOJ 12847. 꿀 아르바이트](https://www.acmicpc.net/problem/12847) - 슬라이딩윈도우/투포인터
 
 #### CS
-* ????
-  * ???
+* Database
+  * ERD 정규화 과정
+    * why ERD?
+    * 정규화
+  * 트랜잭션과 무결성
+  * 데이터베이스의 종류
+    * RDBMS vs NoSQL
+  * 인덱스
+    * why index?
+    * b-tree
+    * how to create index
+    * how to optimize index
+  * 조인의 종류
+    * inner join, left join, right join, outer join
+  * 조인의 원리
+    * 중첩 루프 조인
+    * 정렬 병합 조인
+    * 해시 조인
 
 <hr/>
 
