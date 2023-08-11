@@ -5,7 +5,7 @@ sys.setrecursionlimit(10**5)
 
 
 def dfs(x, y) -> bool:
-    if 0 > x or x >= M or 0 > y or y >= N:
+    if not 0 <= x < M or not 0 <= y < N:
         return False
     if graph[y][x] == 1:
         graph[y][x] = 0
