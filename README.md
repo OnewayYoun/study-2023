@@ -6,6 +6,13 @@
 ~~~
 <hr/>
 
+## 5주차(8.16 ~ 8.22)
+#### Problem Solving
+* [BOJ 1932. 정수삼각형](https://www.acmicpc.net/problem/1932)
+* [BOJ 12865. 평범한 배낭](https://www.acmicpc.net/problem/12865)
+* [BOJ 5525. IOIOI](https://www.acmicpc.net/problem/5525)
+* [BOJ 2623. 음악프로그램](https://www.acmicpc.net/problem/2623)
+
 ## 4주차(8.15 ~ 8.22)
 #### Problem Solving
 * [BOJ 4307. 개미](https://www.acmicpc.net/problem/4307)
