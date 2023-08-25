@@ -6,6 +6,17 @@
 ~~~
 <hr/>
 
+## 6주차(8.23 ~ 8.25)
+#### Problem Solving
+* [귤 고르기](https://school.programmers.co.kr/learn/courses/30/lessons/138476)
+* [두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
+
+#### CS
+* Hexagonal, DDD(@Jimmy-maxsts)
+* 멀티 프로세싱, 스레드와 멀티 프로세싱(insta4outlier)
+* 공유자원과 임계영역, 교착상태(insta4outlier)
+
+
 ## 5주차(8.16 ~ 8.22)
 #### Problem Solving
 * [BOJ 1932. 정수삼각형](https://www.acmicpc.net/problem/1932)
