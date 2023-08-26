@@ -13,7 +13,7 @@
 
 #### CS
 * Hexagonal, DDD(@Jimmy-maxsts)
-* 멀티 프로세싱, 스레드와 멀티 프로세싱(insta4outlier)
+* 멀티 프로세싱, 스레드와 멀티 스레딩(insta4outlier)
 * 공유자원과 임계영역, 교착상태(insta4outlier)
 
 
