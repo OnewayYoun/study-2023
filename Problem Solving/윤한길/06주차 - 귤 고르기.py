@@ -8,6 +8,8 @@ def solution(k, tangerine):
         if k > 0:
             answer += 1
             k -= val
+        else:
+            break
     return answer
 
 
