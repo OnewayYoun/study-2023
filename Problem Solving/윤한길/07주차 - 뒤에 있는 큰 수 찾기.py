@@ -25,3 +25,10 @@ def solution(numbers):
             answer[stack.pop()] = numbers[i]
         stack.append(i)
     return answer
+
+
+if __name__ == '__main__':
+    examples = [[2, 3, 3, 5], [9, 1, 5, 3, 6, 2]]
+    for example in examples:
+        print(solution(example))
+    # result = [3, 5, 5, -1], [-1, 5, 6, 6, -1, -1]
